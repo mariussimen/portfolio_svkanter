@@ -1,5 +1,5 @@
 # Motivation
-Hoste das Projekt für mmich selbst whärend der Entwicklung, falls es jemandem nützt - gerne forken, kopieren oder variieren etc.
+Hoste das Projekt für mich selbst whärend der Entwicklung, falls es jemandem nützt - gerne forken, kopieren oder variieren etc.
 
 https://cjanta.github.io/portfolio_svkanter/ 
 
