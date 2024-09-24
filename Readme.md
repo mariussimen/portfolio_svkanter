@@ -12,7 +12,7 @@ zwangsläufig eine Bewerbung sehr persönliche und richtige Daten enthält.
 
 - nur bestimmte Links, innerhalb eines gewissen Zeitraums, dürfen legitimiert werden die website zu sehen
 - Name/passwort leider noGo()
-Wird als kostenpflichtiger Service von GitHub angeboten angeboten: #sadface
+Wird als kostenpflichtiger Service von GitHub angeboten.
 
 >Visibility
 >GitHub Enterprise
@@ -26,9 +26,10 @@ https://docs.github.com/de/enterprise-cloud@latest/pages/getting-started-with-gi
 
 
 # Milestones
-
-- Legitimationen, wichtig: zeitlich begrenzt mit JS versuchen zu lösen: index+hash.html als Einstieg
-- komplette Bewerbungsunterlagen als website in einer cloud, legitimierten, usern bereitstellen
-- kompakt download, der Bewerbung, als PDF. - wer es halt doch ausdrucken will/muss oder als pdf erfassen muss.
+#git public
+- Legitimationen workaround: index+hash.html als spezieller Link je Unternehmen, honeypot: index.html für blanko aufruf ohne personenbezogene Daten
+#git private
+- komplette Bewerbungsunterlagen als website in einer cloud, legitimiert durch spez. index+hash link vergabe, AG's bereitstellen
+- kompakt download der Bewerbung, als gemergete PDF. - wer es halt doch ausdrucken will/muss oder als pdf erfassen muss.
 
 
