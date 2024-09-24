@@ -21,7 +21,7 @@ const workingHistoryTable =
         <td class="table_cells">Mustertätigkeit_2</td>
     </tr> 
     </table>
-    <button id="add" type="button" onclick="showCompleteWorkingHistoryTable()">Weitere Tätigkeiten anzeigen</button>   
+    <button id="add" class=button-89 type="button" onclick="showCompleteWorkingHistoryTable()">Weitere Tätigkeiten anzeigen</button>   
     <br>          
 `
 
