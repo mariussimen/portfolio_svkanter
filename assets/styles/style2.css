@@ -95,3 +95,25 @@ tr:nth-child(odd) {
     font-size: 20px;
     text-align: left;
   }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Listen */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
