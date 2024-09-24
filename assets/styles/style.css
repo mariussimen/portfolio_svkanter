@@ -1,97 +1,93 @@
+/* style.css */
 
-h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+/* Allgemeine Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hauptbereich */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Abschnitte */
+section {
+    margin-bottom: 40px;
+}
+
+/* Überschriften */
 h2 {
-    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Listen */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Bilder */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    border-bottom: 1px solid rgb(0, 0, 0);
-}
-/* <!-- HTML !-->
-<button class="button-89" role="button">Button 89</button> */
-
-/* CSS */
-.button-89 {
-  --b: 3px;   /* border thickness */
-  --s: .45em; /* size of the corner */
-  --color: #373B44;
-  
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
-  font-size: 16px;
-
-  border: 0;
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
-.button-89:hover,
-.button-89:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
+/* Responsive Design (Beispiel) */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
 }
-
-.button-89:active {
-  background: var(--color);
-  color: #fff;
-}
-/*end class="button-89*/
 
 table {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table, th, td {
-    border: 5px solid rgb(255, 255, 255);
-    border-style: dotted;
-    border-collapse: collapse;
-} 
-
-tr:nth-child(odd) {
-    background-color: rgb(226, 226, 226);
+    width: 100%; /* Make the table fill the available space */
+    border-collapse: collapse; /* Remove borders between cells for a cleaner look */
   }
-   
-#photo {
-        width: 231px;
-        height: 180px;
-        top: 24px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-.table_cells {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: rgba(255, 255, 255);
-    padding: 5px;
+  
+  .table_cells {
+    padding: 15px; /* Add some padding for better readability */
+    border-bottom: 1px solid #ddd; /* Add a subtle border between rows */
+    font-family: Arial, sans-serif; /* Set a clean font */
   }
-
-.grid-item {
-    padding: 3px;
-    font-size: 20px;
-    text-align: left;
+  
+  .table_cells br {  /* Style the line breaks for better visual separation */
+    margin: 5px 0; /* Add some space above and below the line break */
+  }
+  
+  .table_cells:nth-child(odd) { /* Style every other row for a zebra effect */
+    background-color: #f5f5f5;
+  }
+  
+  .table_cells:last-child { /* Remove the bottom border for the last row */
+    border-bottom: none;
   }
