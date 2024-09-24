@@ -8,10 +8,22 @@ https://cjanta.github.io/portfolio_svkanter/
 Es ist erstmal als entwicklungs mock zu betrachten und nicht als eine finale Lösung weil
 zwangsläufig eine Bewerbung sehr persönliche und richtige Daten enthält.
 
-# SPOF/kritisch
+# SPOF/kritisch - leider pay2win
 
 - nur bestimmte Links, innerhalb eines gewissen Zeitraums, dürfen legitimiert werden die website zu sehen
-- Name/passwort = noGo() besser mit den Berechtigungstokens etwas basteln -TODO
+- Name/passwort = noGo() besser mit den Berechtigungstokens etwas basteln ~TODO~
+Wird als kostenpflichtiger Service von GitHub angeboten angeboten: #sadface
+
+Visibility
+GitHub Enterprise
+With a GitHub Enterprise account, you can restrict access to your GitHub Pages site by publishing it privately.
+You can use privately published sites to share your internal documentation or knowledge base with members of your enterprise.
+You can try GitHub Enterprise risk-free for 30 days.
+Learn more about the visibility of your GitHub Pages site.
+
+https://docs.github.com/de/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site
+
+
 
 # Milestones
 
