@@ -40,8 +40,8 @@ const additivWorkingHistoryTable =
     </tr>              
 </table>
 `
-
-function add(){
+let isShowingCompleteHistoryTable = false;
+function setup(){
     let element = document.getElementById("workingHistoryTable");
     element.innerHTML = workingHistoryTable;
 }
@@ -49,6 +49,9 @@ function add(){
 function showCompleteWorkingHistoryTable(){
     let element = document.getElementById("workingHistoryTable");
     element.innerHTML = workingHistoryTable;
-    element.innerHTML += additivWorkingHistoryTable;
+    if (!isShowingCompleteHistoryTable){
+        element.innerHTML += additivWorkingHistoryTable;
+    }
+    isShowingCompleteHistoryTable = !isShowingCompleteHistoryTable;
 }
 
